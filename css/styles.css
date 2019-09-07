@@ -1,0 +1,79 @@
+body {
+  background-color: #d5f0d8;
+
+}
+
+#header-nav {
+  border-radius: 0px;
+  border: 0px;
+  background-color: #003300;
+}
+
+.ddmenu {
+    background-color: white;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+
+h1, p {
+  font-family: Helvetica;
+}
+
+h1.page-title {
+  margin-bottom: 15px;
+  font-size: 200%;
+  text-decoration: bold;
+}
+
+a#brand {
+  font-size: 175%;
+  color: white;
+
+}
+.item {
+  position: relative;
+  border: 1px solid black;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+.item > h1 {
+  font-size: 125%;
+  position: absolute;
+  padding: 5px 15px 5px 15px;
+  margin: 0px;
+  display: block;
+  right: 0px;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.item > p.first {
+  font-size: 100%
+  margin: 0px;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+h1 > a, a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+section:nth-of-type(1) > .item > h1 { 
+  background-color: #632003;
+}
+
+section:nth-of-type(1) > .item > h1 > a { 
+  color: white;
+}
+
+section:nth-of-type(2) > .item > h1 { 
+  background-color: #f7d80f;
+}
+
+section:nth-of-type(3) > .item > h1 { 
+  background-color: #1d5e0c;
+  color: white;
+}
